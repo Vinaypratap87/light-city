@@ -4,7 +4,7 @@ import { IoFilter } from "react-icons/io5";
 import { BsToggleOn } from "react-icons/bs";
 import { BsToggleOff } from "react-icons/bs";
 
-const Navbar = ({data, bgColor, color, toggleButton, toggle, setSearch, search }) => {
+const Nav = ({data, bgColor, color, toggleButton, toggle, setSearch, search }) => {
   const bgcolor = color == "black" ? "#cbc5c5" : "black"
   return (
     <>
@@ -32,4 +32,4 @@ const Navbar = ({data, bgColor, color, toggleButton, toggle, setSearch, search }
   )
 }
 
-export default Navbar
+export default Nav

@@ -3,7 +3,8 @@ import Sidebar from './componants/Sidebar'
 import Post from './componants/Post'
 import Rightbar from './componants/Rightbar'
 import { data,data2 } from './Data'
-import Navbar from './componants/navbar'
+import Nav from './componants/Nav'
+
 
 
 
@@ -32,7 +33,7 @@ const App = () => {
 
   return (
     <>
-    <Navbar setSearch={setSearch} search={search} bgColor={bgColor} color={color} toggleButton=
+    <Nav setSearch={setSearch} search={search} bgColor={bgColor} color={color} toggleButton=
     {toggleButton} toggle={toggle}/>
     <div className="container">
     <div className="side_bar">
