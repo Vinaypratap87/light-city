@@ -1,6 +1,4 @@
 import React from 'react'
-import { FcSearch } from "react-icons/fc";
-import { IoFilter } from "react-icons/io5";
 import { BsToggleOn } from "react-icons/bs";
 import { BsToggleOff } from "react-icons/bs";
 
